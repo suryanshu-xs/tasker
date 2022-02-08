@@ -1,0 +1,108 @@
+.navbar{
+
+    display: flex;
+    align-items: center;
+    padding: 0.8em clamp(0.5rem,4vw,1.3rem);
+    position: relative;
+    border-bottom: 1px solid rgb(98, 98, 98);
+}
+.iconContainer{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0em clamp(0.2em,3vw,2.5rem);
+}
+
+.tasker{
+    font-size: 1em;
+    font-size: clamp(1.2rem,4vw,1.7rem);
+    font-weight: 500;
+    padding: 0em 0.3em;
+}
+.avatarDiv{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* background-color: white; */
+}
+.fa-search:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+.inputAndAvatarDiv{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em 0.3em;
+    border-radius: 30px;
+
+    border: 1px solid white;
+
+}
+.inputAndAvatarDiv input{
+    
+    font-size: clamp(0.8em,3vw,1rem);
+    font-weight: 500;
+    padding: 0.6em 0.2em;
+    padding: 0.6em clamp(0.1em,1vw,1em);
+    letter-spacing: 0.05em;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(241, 241, 241);
+    flex: 0.95;
+    display: block;
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    /* border: 1px solid green; */
+
+}
+.fa-search{
+    /* border: 1px solid red; */
+    font-size: 1.5rem;
+    font-size: clamp(1.3rem,4vw,1.5rem);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(216, 216, 216);
+    width: 42px;
+    height: 42px;
+    /* margin-left: 0.5em; */
+    transition: 0.2s;
+
+    
+}
+
+.iconContainer img{
+    /* max-width: 2.5rem; */
+    width: clamp(2rem,4vw,3rem);
+}
+.avatar{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+}
+
+@media (min-width:400px){
+    .inputAndAvatarDiv {
+        width: 200px
+    }
+}
+@media (min-width:850px){
+    .inputAndAvatarDiv {
+        width: 400px;
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%,-50%);
+    }
+}

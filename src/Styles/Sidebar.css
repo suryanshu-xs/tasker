@@ -1,0 +1,59 @@
+.sidebar{
+ 
+    display: flex;
+
+    width: fit-content;
+    position: relative;
+
+
+    transition: 0.2s
+
+}
+.sidebar-iconContainer{
+    padding: 0.8em clamp(0.5rem,4vw,1.3rem);
+    position: relative;
+    height: 80vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: fit-content;
+    z-index: 1;
+
+    
+}
+.sidebar-icons{
+    position: relative;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-size: clamp(1.3rem,4vw,1.5rem);
+    height: 45px;
+    width: 45px;
+    display: grid;
+    align-items: center;
+    color: rgb(192, 192, 192);
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    z-index: 1;
+    transition: 0.2s
+
+}
+.fas.active-icon{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+.sidebar-icons:hover{
+    background-color: rgb(100, 100, 100);
+}
+.fas p{
+    position: absolute;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    left: 120%;
+    top: 50%;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}

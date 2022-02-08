@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont,'Raleway', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+:root{
+  --background-color: rgba(36, 36, 36, 0.924)
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--background-color);
+  color: white;
+  
+}

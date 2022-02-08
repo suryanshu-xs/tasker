@@ -1,0 +1,136 @@
+:root{
+    --backgroundBorder : rgb(255, 106, 106);
+    --backgroundBorder : rgb(102, 180, 0);
+    --backgroundBorder : rgb(196, 25, 202);
+    --backgroundBorder : rgb(209, 26, 96);
+    --backgroundBorder : rgb(207, 204, 22);
+    --backgroundBorder : rgb(23, 192, 184);
+    --backgroundBorder : transparent
+}
+
+
+
+.mainbody{
+
+    height: 100%;
+    width:100%;
+    position: relative;
+}
+.userInputContainer{
+    border: 2px solid var(--backgroundBorder);
+    border: 2px solid rgb(226, 212, 212);
+
+    margin: 2em auto;
+
+    padding: 0.2em 0.8em;
+    min-width: 250px;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+    background-color: var(--backgroundBorder);
+    transition: 0.2s ;
+
+
+}
+.notesInputBox{
+ 
+
+
+    display: block;
+    width: 100%;
+    font-size: 1.05rem;
+    padding: 0.5em 1em;
+
+    background-color: transparent;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+    margin: 0.5em 0em;
+   
+
+   
+}
+.titleInputBox{
+    
+    display: none;
+    margin-top: 0.3em;
+    width: 100%;
+    font-size: 1.05rem;
+    padding: 0.5em 1em;
+    /* border-radius: 10px; */
+    background-color: transparent;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+
+ 
+    transition: 0.2s;
+
+}
+
+.input-optionsContainer{
+
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.input-optionsContainer i{
+
+    border-radius: 50%;
+    font-size: 1rem;
+    font-size: clamp(0.8rem,4vw,1rem);
+    height: 35px;
+    width: 35px;
+    display: grid;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    transition: 0.2s
+}
+.input-optionsContainer i:hover{
+    background-color: rgb(66, 66, 66);
+}
+.userInputContainer-close-btn{
+
+    font-size: clamp(0.6rem,2.5vw,0.8rem);
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    padding: 0.4em 1.2em;
+    transition: 0.2s;
+}
+
+.userInputContainer-close-btn:hover{
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.userInputContainer-close-btn-container{
+
+    display: none;
+
+    align-items: center;
+    padding: 0.3em 0em;
+    justify-content: flex-end;
+}
+.tasksContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.react-calendar{
+    
+    font-family: 'Raleway', sans-serif;
+
+}

@@ -1,0 +1,122 @@
+.task{
+    min-height: 170px;
+    width: 80%;
+    margin: 1em;
+    margin: 1.5em auto;
+    min-width: 230px;
+    max-width: 500px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.task-title{
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor:default
+}
+.task-task{
+    margin: 0.8em 0em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    word-spacing: 0.05em;
+    line-height: 1.2;
+    flex: 1;
+    cursor:default
+
+}
+.task-options{
+
+    display: flex;
+    position: relative;
+  
+}
+
+.task-options i{
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+    font-size: 1rem;
+    transition: 0.2s;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+
+}
+.task-options i:hover{
+    background-color: rgba(219, 224, 230, 0.377);
+}
+
+.fa-palette{
+    position: relative;
+
+}
+
+.calendar{
+    position: absolute;
+    bottom: 100%;
+    min-width: 240px !important;
+
+    max-width: 400px !important;
+    width: 300px !important;
+    transition: 0.2s;
+    border: none !important;
+    border-radius: 10px;
+    padding: 0.5em 0.8em;
+    
+
+}
+.palatte-colors-container{
+    position: absolute;
+    transform: scale(0);    
+    width: 140px;
+    bottom: 100%;
+    opacity: 0;
+
+
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: 0.3s;
+}
+.palatte-colors{
+    height: 30px;
+    width: 30px;
+    margin: 0.5em;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.palatte-colors-1{
+    background-color: rgba(36, 36, 36, 0.924);
+}
+.palatte-colors-2{
+    background-color: rgb(255, 106, 106);
+}
+.palatte-colors-3{
+    background-color: rgb(102, 180, 0);
+}
+.palatte-colors-4{
+    background-color: rgb(196, 25, 202);
+}
+.palatte-colors-5{
+    background-color: rgb(209, 26, 96);
+}
+.palatte-colors-6{
+    background-color: rgb(207, 204, 22);
+}
+.palatte-colors-7{
+    background-color:rgb(207, 204, 22);
+}
+.palatte-colors-8{
+    background-color: rgb(14, 185, 23);
+}
+.palatte-colors-9{
+    background-color: rgb(17, 130, 182);
+}
+
+
